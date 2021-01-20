@@ -114,14 +114,6 @@ $ sudo luarocks install lua-cjson
 $ sudo luarocks installa Lua-cURL
 $ cd ..
 
-# Clona il repository e concedi allo script di avvio le autorizzazioni da eseguire
-# Se vuoi clonare il ramo beta, usa git clone con l'opzione [-b beta]
-
-$ git clone https://github.com/Falcone8/SurfSecurity.git
-$ cd GroupButler
-$ sudo chmod + x launch.sh
-`` `
-
 Prima di avviare il bot, devi avviare il processo Redis.
 
 `` bash
