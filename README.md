@@ -54,13 +54,13 @@ Il bot supporta anche la lettura di Docker Secrets (può funzionare anche con al
 
 #### Componi Esempio
 
-Puoi distribuire Group Butler eseguendo:
+Puoi distribuire Surf Security eseguendo:
 
 `make easy_deploy`
 
 
 #### Esempio di sciame
-Supponendo che tu abbia distribuito redis, ad esempio `staging` (` docker stack deploy ... `o` docker service create ... `) ed esportato le variabili di ambiente richieste (come` $ TG_TOKEN` ...), puoi distribuire Group Butler eseguendo:
+Supponendo che tu abbia distribuito redis, ad esempio `staging` (` docker stack deploy ... `o` docker service create ... `) ed esportato le variabili di ambiente richieste (come` $ TG_TOKEN` ...), puoi distribuire Surf Security eseguendo:
 
 `docker stack deploy staging -c docker-compose.yml`
 
@@ -81,12 +81,12 @@ Avrai bisogno anche di altri moduli Lua, che possono essere (e dovrebbero essere
 
 **Installazione**
 
-Puoi installare facilmente Group Butler eseguendo i seguenti comandi:
+Puoi installare facilmente Surf Security eseguendo i seguenti comandi:
 
 `` bash
 # Testato su Ubuntu 16.04
 
-$ wget https://raw.githubusercontent.com/group-butler/GroupButler/master/install.sh
+$ wget https://github.com/Falcone8/SurfSecurity/blob/master/install.sh
 $ bash install.sh
 `` `
 
@@ -117,7 +117,7 @@ $ cd ..
 # Clona il repository e concedi allo script di avvio le autorizzazioni da eseguire
 # Se vuoi clonare il ramo beta, usa git clone con l'opzione [-b beta]
 
-$ git clone https://github.com/group-butler/GroupButler.git
+$ git clone https://github.com/Falcone8/SurfSecurity.git
 $ cd GroupButler
 $ sudo chmod + x launch.sh
 `` `
@@ -194,13 +194,13 @@ Il bot supporta anche la lettura di Docker Secrets (può funzionare anche con al
 
 #### Componi Esempio
 
-Puoi distribuire Group Butler eseguendo:
+Puoi distribuire Surf Security eseguendo:
 
 `make easy_deploy`
 
 
 #### Esempio di sciame
-Supponendo che tu abbia distribuito redis, ad esempio `staging` (` docker stack deploy ... `o` docker service create ... `) ed esportato le variabili di ambiente richieste (come` $ TG_TOKEN` ...), puoi distribuire Group Butler eseguendo:
+Supponendo che tu abbia distribuito redis, ad esempio `staging` (` docker stack deploy ... `o` docker service create ... `) ed esportato le variabili di ambiente richieste (come` $ TG_TOKEN` ...), puoi distribuire Surf Security eseguendo:
 
 `docker stack deploy staging -c docker-compose.yml`
 
@@ -221,12 +221,12 @@ Avrai bisogno anche di altri moduli Lua, che possono essere (e dovrebbero essere
 
 **Installazione**
 
-Puoi installare facilmente Group Butler eseguendo i seguenti comandi:
+Puoi installare facilmente Surf Security  eseguendo i seguenti comandi:
 
 `` bash
 # Testato su Ubuntu 16.04
 
-$ wget https://raw.githubusercontent.com/group-butler/GroupButler/master/install.sh
+$ wget https://github.com/Falcone8/SurfSecurity/blob/master/install.sh
 $ bash install.sh
 `` `
 
@@ -257,7 +257,7 @@ $ cd ..
 # Clona il repository e concedi allo script di avvio le autorizzazioni da eseguire
 # Se vuoi clonare il ramo beta, usa git clone con l'opzione [-b beta]
 
-$ git clone https://github.com/group-butler/GroupButler.git
+$ git clone https://github.com/Falcone8/SurfSecurity.git
 $ cd GroupButler
 $ sudo chmod + x launch.sh
 `` `
