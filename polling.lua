@@ -3,10 +3,10 @@
 package.path="./lua/?.lua;./lua/vendor/?.lua;"..package.path
 io.stdout:setvbuf "no" -- switch off buffering for stdout
 
-local plugins = require "groupbutler.plugins"
-local main = require "groupbutler.main"
-local config = require "groupbutler.config"
-local log = require "groupbutler.logging"
+local plugins = require "SurfSecurity.plugins"
+local main = require "SurfSecurity.main"
+local config = require "SurfSecurity.config"
+local log = require "SurfSecurity.logging"
 local methods = require "telegram-bot-api.methods"
 local api = methods:new(config.telegram.token)
 

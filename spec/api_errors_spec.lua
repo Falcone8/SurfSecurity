@@ -1,5 +1,5 @@
 _G.TEST = true
-local ApiErrors = require "groupbutler.api_errors"
+local ApiErrors = require "SurfSecurityr.api_errors"
 
 local api_err = ApiErrors:new({
 	i18n = function(s)

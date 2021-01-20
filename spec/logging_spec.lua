@@ -1,5 +1,5 @@
 _G.TEST = true
-local logging = require "groupbutler.logging"
+local logging = require "SurfSecurity.logging"
 
 -- logging.info("starting up")
 -- logging.error("startup failed: {name} timed out ({timeout})", {name="telegram", timeout=5})

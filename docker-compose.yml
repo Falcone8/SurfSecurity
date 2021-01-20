@@ -1,7 +1,7 @@
 version: '3.6'
 
 services:
-  groupbutler:
+  SurfSecurity:
     environment:
       - GB_ADMIN_MODE
       - GB_CACHE_ADMIN
@@ -31,4 +31,4 @@ services:
       - TG_WEBHOOK_DOMAIN
       - TG_WEBHOOK_CERT
       - TG_WEBHOOK_MAX_CON
-    image: ${IMAGE:-groupbutler/groupbutler}:${TAG:-latest}
+    image: ${IMAGE:-SurfSecurity/SurfSecurity}:${TAG:-latest}

@@ -54,11 +54,11 @@ case $REPLY in [yY])
 	fi
 
 	if [ ! -d .git ]; then
-		echo -en "${Green}Would you like to clone the source of GroupButler? (Y/N): ${Default}"
+		echo -en "${Green}Would you like to clone the source of SurfSecurity? (Y/N): ${Default}"
 		read REPLY
 		if [[ $REPLY == [yY] ]]; then
 			echo -en "${Orange}Fetching latest Group Butler source code\n${Default}"
-			git clone -b master https://github.com/group-butler/GroupButler.git && cd GroupButler
+			git clone -b master https://github.com/group-butler/SurfSecurity.git && cd SurfSecurity
 		fi
 	fi
 

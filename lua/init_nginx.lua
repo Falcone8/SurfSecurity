@@ -1,4 +1,4 @@
-local config = require "groupbutler.config"
+local config = require "SurfSecurity.config"
 local methods = require "telegram-bot-api.methods"
 
 local _M = {}
